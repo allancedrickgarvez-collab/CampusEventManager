@@ -1,0 +1,72 @@
+# ---------------------------------------------------------------------------
+# Android / Gradle
+# ---------------------------------------------------------------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+
+# ---------------------------------------------------------------------------
+# Android Studio / IntelliJ
+# ---------------------------------------------------------------------------
+.idea/
+*.iml
+*.hprof
+
+# ---------------------------------------------------------------------------
+# Machine-specific config -- contains YOUR local Android SDK path.
+# Every member generates their own; never commit it.
+# ---------------------------------------------------------------------------
+local.properties
+
+# ---------------------------------------------------------------------------
+# Keystores & signing material -- NEVER commit these
+# ---------------------------------------------------------------------------
+*.jks
+*.keystore
+*.p12
+*.pem
+keystore.properties
+signing.properties
+
+# ---------------------------------------------------------------------------
+# Build outputs
+# ---------------------------------------------------------------------------
+*.apk
+*.aab
+*.ap_
+*.dex
+app/release/
+app/debug/
+output-metadata.json
+baselineProfiles/
+
+# ---------------------------------------------------------------------------
+# Firebase Cloud Functions (Node)
+# ---------------------------------------------------------------------------
+node_modules/
+functions/node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn.lock.bak
+firebase-debug.log
+.firebase/
+functions/.env
+functions/.env.*
+.env
+.env.*
+serviceAccountKey.json
+*-service-account.json
+
+# ---------------------------------------------------------------------------
+# OS / editor cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
